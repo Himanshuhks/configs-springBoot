@@ -5,6 +5,8 @@ spring:
     config:
       uri:
         - http://localhost:9000
+server:
+  port: 9002
 
 zuul:
   prefix: /api
